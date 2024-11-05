@@ -43,7 +43,7 @@ body{
 
 #overview{
     width: 100vw;
-    height: 90vh;
+    /* height: 90vh; */
     padding: 50px;
     display: flex;
     justify-content: center; 
