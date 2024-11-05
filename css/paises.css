@@ -1,0 +1,273 @@
+.custom-shape-divider-top-1730835530 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1730835530 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+.custom-shape-divider-top-1730835530 .shape-fill {
+    fill: var(--bege);
+}
+
+.custom-shape-divider-bottom-1730838634 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1730838634 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 75px;
+}
+
+.custom-shape-divider-bottom-1730838634 .shape-fill {
+    fill: var(--bege);
+}
+
+#mexico{
+    width: 100vw;
+    height: 100vh;
+    background: var(--vermelho);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#mexico #c3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mexico #video1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mexico #text2{
+    width: 50vw;
+    height: 100vh;
+    padding: 200px 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url("../assets/mexico.jpg");
+    background-color: hsla(0, 0%, 0%, 0.80);
+    background-blend-mode: multiply;
+    background-size: 150%;
+}
+
+#mexico #text2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#haiti{
+    width: 100vw;
+    height: 100vh;
+    background: var(--verde);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#haiti #c3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#haiti #video1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#haiti #text2{
+    width: 50vw;
+    height: 100vh;
+    padding: 200px 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url("../assets/haiti.jpg");
+    background-color: hsla(0, 0%, 0%, 0.80);
+    background-blend-mode: multiply;
+    background-size: 150%;
+}
+
+#haiti #text2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#argentina{
+    width: 100vw;
+    height: 100vh;
+    background: var(--marrom);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#argentina #c3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#argentina #video1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#argentina #text2{
+    width: 50vw;
+    height: 100vh;
+    padding: 200px 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url("../assets/argentina.jpg");
+    background-color: hsla(0, 0%, 0%, 0.80);
+    background-blend-mode: multiply;
+    background-size: 200%;
+    background-position: -550px;
+}
+
+#argentina #text2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#cuba{
+    width: 100vw;
+    height: 100vh;
+    background: var(--vermelho);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#cuba #c3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuba #video1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cuba #text2{
+    width: 50vw;
+    height: 100vh;
+    padding: 200px 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url("../assets/cuba.jpg");
+    background-color: hsla(0, 0%, 0%, 0.80);
+    background-blend-mode: multiply;
+    background-size: 150%;
+}
+
+#cuba #text2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#gracolombia{
+    width: 100vw;
+    height: 100vh;
+    background: var(--verde);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#gracolombia #c3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gracolombia #video1{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gracolombia #text2{
+    width: 50vw;
+    height: 100vh;
+    padding: 200px 50px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-image: url("../assets/colombia.jpg");
+    background-color: hsla(0, 0%, 0%, 0.80);
+    background-blend-mode: multiply;
+    background-size: 150%;
+    background-position: -30px;
+}
+
+#gracolombia #text2 div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

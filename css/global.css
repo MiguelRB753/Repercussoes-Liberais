@@ -9,13 +9,22 @@
     font-family: "Nunito", sans-serif;
 }
 
+:root{
+    --bege: #D9C8A9;
+    --marrom: #8B5E3C;
+    --verde: #4A5E3E;
+    --vermelho: #6E2A2A;
+}
+
 body{
     overflow-x: hidden;
+    background: var(--bege);
 }
+
 
 #home #c1{
     background-image: url("../assets/bg1.jpeg");
-    background-color: hsla(0, 0%, 0%, .85);
+    background-color: hsla(0, 0%, 0%, .75);
     background-blend-mode: multiply;
     background-position: 70px;
     width: 100vw;
@@ -43,7 +52,6 @@ body{
 
 #overview{
     width: 100vw;
-    /* height: 90vh; */
     padding: 50px;
     display: flex;
     justify-content: center; 
@@ -64,6 +72,19 @@ body{
     gap: 100px;
 }
 
-#overview p{
-    font-size: 20px;
+#overview #text1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 150px;
 }
+
+#overview #text1 p{
+    font-size: 25px;
+    text-align: justify;
+}
+
+#overview #c2{
+    text-align: center;
+}
+
