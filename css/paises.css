@@ -109,6 +109,13 @@
     align-items: center;
 }
 
+#haiti #video1 video{
+    width: 250px;
+    max-height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.20);
+}
+
 #haiti #text2{
     width: 50vw;
     padding: 200px 50px;
@@ -149,6 +156,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#argentina #video1 video{
+    width: 250px;
+    max-height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.20);
 }
 
 #argentina #text2{
@@ -195,6 +209,13 @@
     align-items: center;
 }
 
+#cuba #video1 video{
+    width: 250px;
+    max-height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.20);
+}
+
 #cuba #text2{
     width: 50vw;
     padding: 200px 50px;
@@ -235,6 +256,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#gracolombia #video1 video{
+    width: 250px;
+    max-height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px hsla(0, 0%, 0%, 0.20);
 }
 
 #gracolombia #text2{
