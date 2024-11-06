@@ -35,7 +35,6 @@ body{
     flex-direction: column;
     gap: 10px;
 }
-
 #home #c1 h1{
     color: #fff;
     font-size: 40px;
@@ -43,7 +42,6 @@ body{
     width: 25ch;
     text-align: center;
 }
-
 #home #c1 p{
     color: #fff;
     font-size: 20px;
@@ -59,32 +57,68 @@ body{
     flex-direction: column;
     gap: 70px;
 }
-
 #overview h1{
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
 }
-
 #overview #cards{
     width: 100vw;
     display: flex;
     justify-content: center;
     gap: 100px;
 }
-
 #overview #text1{
     display: flex;
     flex-direction: column;
     gap: 25px;
     padding: 0 150px;
 }
-
 #overview #text1 p{
     font-size: 25px;
     text-align: justify;
 }
-
 #overview #c2{
     text-align: center;
 }
+#overview #c4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
+@media screen and (max-width: 512px){
+    #home #c1{
+        background-position: -1500px;
+        padding: 20px;
+    }
+    #home #c1 h1{
+        max-width: fit-content;
+        font-size: 35px;
+    }
+
+    #overview{
+        padding: 70px 20px;
+    }
+    #overview #c4{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #overview #text1{
+        padding: 20px;
+    }
+    #overview #cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #overview #cards .flip-card{
+        width: 80vw;
+    }
+    #overview #cards .flip-card img{
+        aspect-ratio: 4/3;
+        width: 80vw;
+    }
+}
