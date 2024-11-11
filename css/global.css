@@ -21,6 +21,10 @@ body{
     background: var(--bege);
 }
 
+h1, h2, p{
+    text-align: center;
+}
+
 
 #home #c1{
     background-image: url("../assets/bg1.jpeg");
@@ -40,7 +44,6 @@ body{
     font-size: 40px;
     font-family: "Libre Baskerville", serif;
     width: 25ch;
-    text-align: center;
 }
 #home #c1 p{
     color: #fff;
